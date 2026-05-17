@@ -1,0 +1,282 @@
+.contact-section{
+    padding:120px 6%;
+}
+
+/* HERO */
+.contact-hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    margin-bottom:60px;
+    flex-wrap:wrap;
+}
+
+.contact-text{
+    flex:1;
+}
+
+.contact-text span{
+    color:var(--primary);
+    font-weight:600;
+}
+
+.contact-text h1{
+    font-size:3rem;
+    color:var(--secondary);
+    margin:15px 0;
+}
+
+.contact-text p{
+    color:var(--gray);
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.contact-image{
+    flex:1;
+}
+
+.contact-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:var(--shadow);
+}
+
+/* BUTTON */
+.btn-contact{
+    background:var(--primary);
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-contact:hover{
+    background:var(--secondary);
+}
+
+/* CARDS */
+.contact-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:60px;
+}
+
+.contact-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:var(--shadow);
+    transition:0.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-8px);
+}
+
+.contact-card i{
+    font-size:30px;
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.contact-card h3{
+    color:var(--secondary);
+    margin-bottom:10px;
+}
+
+.contact-card p{
+    color:var(--gray);
+}
+
+/* FORM */
+.contact-container{
+    display:flex;
+    justify-content:center;
+    margin-bottom:60px;
+}
+
+.contact-form{
+    width:100%;
+    max-width:900px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:var(--shadow);
+}
+
+.contact-form h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:var(--secondary);
+}
+
+.input-group{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.input-group input,
+.input-group select,
+textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+}
+
+textarea{
+    height:150px;
+    resize:none;
+    margin-bottom:20px;
+}
+
+.btn-send{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#0bb79d,#052b5b);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* MAP */
+.map-section iframe{
+    border-radius:20px;
+}
+
+/* REDES SOCIAIS */
+
+.contact-social{
+    padding: 80px 8%;
+    background: #f5f7fa;
+}
+
+.social-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-header h2{
+    font-size: 2.2rem;
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.social-header p{
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.social-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 25px;
+}
+
+.social-card{
+    background: white;
+    border-radius: 25px;
+    padding: 35px 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    top: 0;
+}
+
+.social-card:hover{
+    transform: translateY(-10px);
+}
+
+.social-card i{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.social-card h3{
+    color: var(--secondary);
+    margin-bottom: 8px;
+}
+
+.social-card p{
+    color: var(--gray);
+    font-size: 0.95rem;
+}
+
+/* FACEBOOK */
+.facebook::before{
+    background: #1877f2;
+}
+
+.facebook i{
+    color: #1877f2;
+}
+
+/* INSTAGRAM */
+.instagram::before{
+    background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+}
+
+.instagram i{
+    color: #dc2743;
+}
+
+/* WHATSAPP */
+.whatsapp::before{
+    background: #25d366;
+}
+
+.whatsapp i{
+    color: #25d366;
+}
+
+/* LINKEDIN */
+.linkedin::before{
+    background: #0077b5;
+}
+
+.linkedin i{
+    color: #0077b5;
+}
+
+.map-section{
+    padding: 80px 8%;
+    background: #f5f7fa;
+}
+
+.map-section h2{
+    text-align: center;
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.map-section p{
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 40px;
+}
+
+ .map-container{
+    display: flex;
+    justify-content: center;
+}
